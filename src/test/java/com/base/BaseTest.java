@@ -27,8 +27,10 @@ public class BaseTest {
 	}
 	
 	@BeforeMethod
-	public void setupDriver() {		
-		driver = new ChromeDriver();
+	public void setupDriver() {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless=new");
+		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 	}
 	
