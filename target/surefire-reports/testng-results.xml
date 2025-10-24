@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-24T11:37:17 IST" name="Surefire suite" finished-at="2025-10-24T11:37:28 IST" duration-ms="11103">
+    <groups>
+    </groups>
+    <test started-at="2025-10-24T11:37:17 IST" name="Surefire test" finished-at="2025-10-24T11:37:28 IST" duration-ms="11103">
+      <class name="com.tests.APITest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.tests.APITest@57cf54e1]" started-at="2025-10-24T11:37:17 IST" name="setupDriver" finished-at="2025-10-24T11:37:20 IST" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="verifyGetUsersAPI()[pri:0, instance:com.tests.APITest@57cf54e1]" started-at="2025-10-24T11:37:20 IST" name="verifyGetUsersAPI" finished-at="2025-10-24T11:37:22 IST" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUsersAPI -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.APITest@57cf54e1]" started-at="2025-10-24T11:37:22 IST" name="tearDown" finished-at="2025-10-24T11:37:23 IST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGetUsersAPI status=SUCCESS method=APITest.verifyGetUsersAPI()[pri:0, instance:com.tests.APITest@57cf54e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.APITest -->
+      <class name="com.base.BaseTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.base.BaseTest@6fd83fc1]" started-at="2025-10-24T11:37:17 IST" name="setupReport" finished-at="2025-10-24T11:37:17 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="flaushReport()[pri:0, instance:com.base.BaseTest@6fd83fc1]" started-at="2025-10-24T11:37:28 IST" name="flaushReport" finished-at="2025-10-24T11:37:29 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flaushReport -->
+      </class> <!-- com.base.BaseTest -->
+      <class name="com.tests.UITest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.tests.UITest@5b03b9fe]" started-at="2025-10-24T11:37:23 IST" name="setupDriver" finished-at="2025-10-24T11:37:24 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.tests.UITest@5b03b9fe]" started-at="2025-10-24T11:37:24 IST" name="verifyLogin" finished-at="2025-10-24T11:37:28 IST" duration-ms="4296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.UITest@5b03b9fe]" started-at="2025-10-24T11:37:28 IST" name="tearDown" finished-at="2025-10-24T11:37:28 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=UITest.verifyLogin()[pri:0, instance:com.tests.UITest@5b03b9fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.UITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

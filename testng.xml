@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation POC Suite">
+	<test name="POC execution">
+		<classes>
+			<class name="com.tests.APITest"/>
+			<class name="com.tests.UITest"/>
+		</classes>
+	</test>
+</suite>

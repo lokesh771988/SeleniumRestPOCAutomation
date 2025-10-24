@@ -1,0 +1,5 @@
+com\pages\LoginPage.class
+com\base\BaseTest.class
+com\tests\APITest.class
+com\utils\ConfigReader.class
+com\tests\UITest.class
